@@ -1,0 +1,16 @@
+# macOS metadata
+.DS_Store
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Generated audit reports and temporary test data
+/reports/
+/tests/tmp/
+
+# Editor temporary files
+*.swp
+*.swo
+*~
