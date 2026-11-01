@@ -6,18 +6,20 @@
 - [x] MVP includes local Git and remote public GitHub repositories.
 - [x] Clearly named `Eisenhower Matrix.md` at the repository root.
 - [x] Development plan and initial folder structure.
-- [ ] Student-created System Diagram image at the repository root.
-- [ ] Editable source for the student's System Diagram at the repository root.
+- [x] Supplied System Diagram image at the repository root.
+- [x] Supplied editable System Diagram source at the repository root.
 - [ ] Verify both named deliverables in the latest default-branch commit after uploading the diagram.
 - [ ] Add the repository URL and required deliverables to the student's assignment/design document.
 
-Homework 9 is not ready for submission until the missing diagram requirements are satisfied.
+File upload alone does not establish compliance with the diagram authorship requirement.
+Confirm that requirement and finish the assignment/design document before submission.
 
 ## Student-created diagram required
 
 The assignment requires the student to draw the System Diagram using draw.io, Lucidchart, or a comparable diagramming tool.
 AI-generated diagrams earn a zero for that section.
-No diagram, generated source, or substitute artifact is included in this setup.
+The supplied diagram image and editable source are now included.
+The upload does not certify student authorship or course compliance.
 
 Provide the exported image as `System Diagram.png` or `System Diagram.jpg` and the editable source as `System Diagram.drawio` or the corresponding native format.
 Check the diagram against the assignment's requirements for the updated MVP, labeled connections, and a clear starting point.
