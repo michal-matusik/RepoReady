@@ -1,0 +1,44 @@
+[project]
+name = "repoready"
+version = "0.1.0"
+description = "A package for analysing git repos for boilerplate code and unifinished projects"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Michal Matusik", email = "michulek123@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mypy>=2.4.1",
+    "pytest>=9.2.0",
+    "requests>=2.34.2",
+    "ruff>=0.17.6",
+]
+
+[project.scripts]
+repoready = "repoready.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "mypy>=2.4.1",
+    "pytest>=9.2.0",
+    "ruff>=0.17.6",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.pytest.ini_options]
+testpats = ["tests"]
+
+[tool.mypy]
+strict = true
